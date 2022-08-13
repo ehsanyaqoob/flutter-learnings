@@ -7,7 +7,7 @@ class MyDrawer extends StatelessWidget {
     final imageUrl = "https://avatars.githubusercontent.com/u/97935737?v=4";
     return Drawer(
       child: Container(
-        color: Colors.amber,
+        color: Colors.deepPurple,
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
@@ -15,7 +15,7 @@ class MyDrawer extends StatelessWidget {
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
-                accountName: Text("ehsan yaqoob"),
+                accountName: Text("Hi!I,m ehsan"),
                 accountEmail: Text("ehsanyaqoob07@gmail.com"),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(imageUrl),
